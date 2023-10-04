@@ -1,0 +1,38 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(#ffeeee, #ffc0bb);
+}
+.emoji-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 95%;
+  min-height: 30vh;
+  border-radius: 5px;
+  border: 1px solid ghostwhite;
+  padding: 15px;
+}
+h1 {
+  text-align: center;
+  font-size: medium;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}

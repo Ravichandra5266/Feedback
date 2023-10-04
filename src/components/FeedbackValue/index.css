@@ -1,0 +1,28 @@
+.feedback-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: palegreen;
+  width: 95%;
+  min-height: 30vh;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 15px;
+  text-align: center;
+}
+.love {
+  width: 150px;
+  margin-bottom: 15px;
+}
+.feedback-card h1 {
+  margin-bottom: 15px;
+}
+.feedback-card p {
+  margin-bottom: 15px;
+}
+.feedback-card p span {
+  color: brown;
+  font-size: larger;
+  font-weight: bolder;
+}
